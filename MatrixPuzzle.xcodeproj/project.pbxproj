@@ -1,0 +1,218 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79969EB2167B3CFD004E3C5B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79969EAF167B3CFD004E3C5B /* main.cpp */; };
+		79969EB3167B3CFD004E3C5B /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79969EB0167B3CFD004E3C5B /* Matrix.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		79F8103E1678C55800DDF6A0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		79969EAF167B3CFD004E3C5B /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = MatrixPuzzle/main.cpp; sourceTree = SOURCE_ROOT; };
+		79969EB0167B3CFD004E3C5B /* Matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Matrix.cpp; path = MatrixPuzzle/Matrix.cpp; sourceTree = SOURCE_ROOT; };
+		79969EB1167B3CFD004E3C5B /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Matrix.h; path = MatrixPuzzle/Matrix.h; sourceTree = SOURCE_ROOT; };
+		79F810401678C55800DDF6A0 /* MatrixPuzzle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MatrixPuzzle; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79F8103D1678C55800DDF6A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79F810351678C55800DDF6A0 = {
+			isa = PBXGroup;
+			children = (
+				79F810431678C55800DDF6A0 /* MatrxPuzzle */,
+				79F810411678C55800DDF6A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79F810411678C55800DDF6A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79F810401678C55800DDF6A0 /* MatrixPuzzle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79F810431678C55800DDF6A0 /* MatrxPuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				79969EAF167B3CFD004E3C5B /* main.cpp */,
+				79969EB0167B3CFD004E3C5B /* Matrix.cpp */,
+				79969EB1167B3CFD004E3C5B /* Matrix.h */,
+			);
+			path = MatrxPuzzle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79F8103F1678C55800DDF6A0 /* MatrixPuzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79F8104A1678C55800DDF6A0 /* Build configuration list for PBXNativeTarget "MatrixPuzzle" */;
+			buildPhases = (
+				79F8103C1678C55800DDF6A0 /* Sources */,
+				79F8103D1678C55800DDF6A0 /* Frameworks */,
+				79F8103E1678C55800DDF6A0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MatrixPuzzle;
+			productName = MatrxPuzzle;
+			productReference = 79F810401678C55800DDF6A0 /* MatrixPuzzle */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79F810371678C55800DDF6A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Wang ZhiPeng";
+			};
+			buildConfigurationList = 79F8103A1678C55800DDF6A0 /* Build configuration list for PBXProject "MatrixPuzzle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 79F810351678C55800DDF6A0;
+			productRefGroup = 79F810411678C55800DDF6A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79F8103F1678C55800DDF6A0 /* MatrixPuzzle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79F8103C1678C55800DDF6A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79969EB2167B3CFD004E3C5B /* main.cpp in Sources */,
+				79969EB3167B3CFD004E3C5B /* Matrix.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		79F810481678C55800DDF6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		79F810491678C55800DDF6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		79F8104B1678C55800DDF6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = MatrixPuzzle;
+			};
+			name = Debug;
+		};
+		79F8104C1678C55800DDF6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = MatrixPuzzle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79F8103A1678C55800DDF6A0 /* Build configuration list for PBXProject "MatrixPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F810481678C55800DDF6A0 /* Debug */,
+				79F810491678C55800DDF6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79F8104A1678C55800DDF6A0 /* Build configuration list for PBXNativeTarget "MatrixPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F8104B1678C55800DDF6A0 /* Debug */,
+				79F8104C1678C55800DDF6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79F810371678C55800DDF6A0 /* Project object */;
+}
